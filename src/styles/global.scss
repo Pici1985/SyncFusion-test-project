@@ -1,0 +1,48 @@
+// src/styles/global.scss
+$primary-color: #3498db;
+
+:root {
+  --accent-solid: #11181c; /* Define the custom property */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.e-grid .e-gridheader thead .e-icons:not(.e-icon-filter) {
+  display: none;
+}
+
+.e-checkbox-wrapper .e-frame,
+.e-css.e-checkbox-wrapper .e-frame {
+  border: 1px solid rgba(0, 0, 0, 0.87) !important;
+  border-radius: 4px !important;
+}
+
+.e-checkbox-wrapper .e-frame.e-check,
+.e-css.e-checkbox-wrapper .e-frame .e-check {
+  background-color: #006adc !important;
+  border: 1px solid #006adc !important;
+}
+
+.e-checkbox-wrapper .e-frame.e-stop,
+.e-css.e-checkbox-wrapper .e-frame .e-check {
+  background-color: #006adc !important;
+  border: 1px solid #006adc !important;
+  color: white !important;
+}
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left) {
+  border: 1px solid rgba(0, 0, 0, 0.42);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.timer-wrapper {
+  max-width: '100px';
+  display: 'flex';
+  justify-content: 'center';
+  background: red;
+}

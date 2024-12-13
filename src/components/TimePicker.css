@@ -1,0 +1,35 @@
+.time-picker {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.wrapper {
+  display: flex;
+  width: 240px;
+  position: relative;
+}
+
+.time-picker-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.42);
+  border-radius: 5px 0 0 5px;
+}
+
+.time-picker-dropdown-button {
+  padding: 5px;
+  font-size: 14px;
+  width: 25px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.time-picker-dropdown {
+  position: relative;
+  width: 240px;
+  top: 0px;
+  padding: 5px;
+  font-size: 14px;
+}
